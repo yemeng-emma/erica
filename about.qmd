@@ -2,8 +2,10 @@
 title: "About"
 ---
 
-About this site
+### About this site
 
-```{r}
-1 + 1
-```
+The website was built using Quarto and R and published on GitHub pages. 
+
+### Contact 
+
+You can email the administrator Meng Ye at [mye2@gsu.edu](mailto:mye2@gsu.edu)

@@ -1,11 +1,9 @@
 ---
-title: "erica"
+title: "Welcome to Erica's website!"
 ---
 
-This is a Quarto website.
+Hello! Thank you for visiting my website. My name is Erica Lin. I am 6 years old, a first-grader at the Montessori program at BVE. My Chinese name is 林瑾怡 (Lin Jinyi). "Jin" means beautiful jade and good virtues and "Yi" means joy.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![](face.jpg)
 
-```{r}
-1 + 1
-```
+On this website, I work with my mom to post my journals, homeworks, artworks, and other fun things we do. Hope you like it!

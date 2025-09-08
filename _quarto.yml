@@ -1,19 +1,87 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "erica"
+  title: "Erica J. Lin"
+  bread-crumbs: false
   navbar:
+    search: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+
+     - text: Homework
+       menu: 
+        - text: SY2025-2026
+          file: homework/h2025.qmd
+
+
+     - text: My Art
+       menu: 
+        - text: 2024 (5 years)
+          file: art/a2024.qmd
+        - text: 2025 (6 years)
+          file: art/a2025.qmd
+
+     - text: Math and Code
+       menu: 
+        - text: Math practices
+          file: math/m2025.qmd
+        - text: Coding playground
+          file: math/coding.qmd
+
+     - text: Languages
+       menu: 
+        - text: 中文
+          file: languages/zhongwen.qmd
+
+                    
+     - text: Fun Activities
+       menu: 
+        - text: Hobbies
+          file: fun/hobbies.qmd
+        - text: Travels
+          file: fun/travels.qmd
+        - text: Events
+          file: fun/events.qmd          
+      
+
+          
+     - text: About
+       file: about.qmd
+       
+    tools:
+     - icon: envelope
+       href: "mailto:erica.jinyi.lin@gmail.com"
+       aria-label: email
+       
+
+  sidebar:
+     - title: "Research"
+       style: "docked"
+       search: false
+       background: light
+       contents:
+         - text: "1. Publications"
+           file: research/publication.qmd
+         - text: "2. Research Projects"
+           file: research/pipeline.qmd
+         - text: "3. Presentations and Talks"
+           file: research/talks.qmd
+           
+     - title: "Teaching"
+       style: "docked"
+       background: light
+       contents:
+        - text: "1. Courses Taught"
+          file: teaching/course.qmd
+        - text: "2. Teaching Evaluation"
+          file: teaching/evaluation.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: vapor
     css: styles.css
     toc: true
 
-editor: visual
+
 
