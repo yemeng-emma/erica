@@ -14,7 +14,6 @@ website:
         - text: SY2025-2026
           file: homework/h2025.qmd
 
-
      - text: My Art
        menu: 
         - text: 2024 (5 years)
