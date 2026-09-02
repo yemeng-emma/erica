@@ -33,7 +33,8 @@ website:
        menu: 
         - text: 中文
           file: languages/zhongwen.qmd
-
+        - text: English
+          file: languages/eng.qmd
                     
      - text: Fun Activities
        menu: 
